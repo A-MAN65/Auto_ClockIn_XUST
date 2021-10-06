@@ -62,11 +62,11 @@ def fun1(username_text, password_text):
         # "/html/body/uni-app/uni-page/uni-page-wrapper/uni-page-body/uni-view/uni-view[2]/uni-button"
         time.sleep(1)
         # # 获取继续打卡按钮并点击
-        # target = driver.find_element_by_xpath("//*[text()='继续打卡']")
-        # time.sleep(3)  # 定位到之后等待3s执行click()
-        # target.click()
+        target = driver.find_element_by_xpath("//*[text()='继续打卡']")
+        time.sleep(3)  # 定位到之后等待3s执行click()
+        target.click()
 
-        # driver.find_element_by_xpath("/html/body/div/div[3]/p/span[1]").click()
+        driver.find_element_by_xpath("/html/body/div/div[3]/p/span[1]").click()
         time.sleep(3)
 
         # 获取点击获取详细地址按钮并点击
