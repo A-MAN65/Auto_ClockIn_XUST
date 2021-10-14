@@ -37,8 +37,8 @@ def fun1(username_text, password_text):
     try:
         wait = WebDriverWait(driver, 3)  # 后面可以使用wait对特定元素进行等待
         # 3.访问西科E站登录页面
-        url_login = 'http://ids.xust.edu.cn/authserver/login?service=http%3A%2F%2Fehallmobile.xust.edu.cn%2Fossh_server%2FmobileCaslogin'
-
+        #url_login = 'http://ids.xust.edu.cn/authserver/login?service=http%3A%2F%2Fehallmobile.xust.edu.cn%2Fossh_server%2FmobileCaslogin'
+        url_login  = 'http://ehallnew.xust.edu.cn/#/'
         driver.get(url_login)
         # 获取用户与密码输入框并输入
         time.sleep(1)
