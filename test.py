@@ -12,7 +12,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 mobile_emulation = {"deviceMetrics": {"width": 360, "height": 640, "pixelRatio": 3.0},
                     "userAgent": "Mozilla/5.0 (Linux; Android 4.2.1; en-us; Nexus 5 Build/JOP40D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19"}
-
+#这是一行注释
 # 配置加载策略
 # desired_capabilities = DesiredCapabilities.CHROME  # 修改页面加载策略
 # desired_capabilities["pageLoadStrategy"] = "eager"  # 注释这两行会导致最后输出结果的延迟，即等待页面加载完成再输出
